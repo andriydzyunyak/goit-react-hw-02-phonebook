@@ -20,8 +20,6 @@ export class App extends Component {
     filter: '',
   };
 
-  nameInputId = nanoid();
-
   addContact = ({ name, number }) => {
     const contact = {
       id: nanoid(),
